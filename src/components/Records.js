@@ -21,8 +21,8 @@ const Records = ({data}) => {
             {data.map(item => (
                 <tr key={item.id} className="post-tr">
                     <td className="id-td">{item.id} </td>
-                    <td className="info-td">{item.title} </td>
-                    <td className="info-td">{item.body} </td>
+                    <td className="info-td" style={{width:'45%'}}>{item.title} </td>
+                    <td className="info-td" style={{width:'45%'}}>{item.body} </td>
                 </tr>
             ))}
             </tbody>
